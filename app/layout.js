@@ -9,7 +9,10 @@ export default function RootLayout({ children }) {
     <html lang="en"><body className={font.className}>
       <Header />
       <main>{children}</main>
-      <footer className="ftr">© 2026 Department of the Interior and Local Government – Negros Oriental</footer>
+     <footer className="ftr">
+  <div>© 2026 Department of the Interior and Local Government – Negros Oriental</div>
+  <div className="credit">Website developed by Niki · BSCS, NORSU</div>
+</footer>
       <AdminPill />
     </body></html>
   );
